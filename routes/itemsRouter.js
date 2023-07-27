@@ -16,7 +16,7 @@ itemRouter.route('/')
       .catch((err) => next(err));
   })
 
-  // Create a new item
+  // Create new item
   .post((req, res, next) => {
     Item.create(req.body)
       .then((item) => {

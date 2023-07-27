@@ -1,6 +1,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
+//item schema
 var Item = new Schema({
     itemCode: {
         type: Number,
